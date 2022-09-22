@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    margin: 0;
+    background-color: aqua;
+}
+
+p{
+    font-size: 28px;
+}
