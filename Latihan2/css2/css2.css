@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+nav{
+    padding: 10px;
+    background-color: aqua;
+    color: darkorchid;
+    display: flex;
+}
+
+.nav-link{
+    list-style-type: none;
+    display: flex;
+}
