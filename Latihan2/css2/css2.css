@@ -7,22 +7,37 @@
 .logo{
     font-weight: bold;
     font-size: 32px;
+    color: black;
+}
+
+header a{
+    color: black;
+}
+
+header{
+    padding: 10px 100px;
+    background-color: aqua;
+    display: flex;
+    right: 0;
+    left: 0;
+    justify-content: center;
 }
 
 nav a{
-    color: darkorchid;
+    color: black;
     text-decoration: none;
 }
 
 nav{
     padding: 10px 100px;
-    background-color: aqua;
+    background-color: cadetblue;
     color: darkorchid;
     display: flex;
     position: fixed;
     right: 0;
     left: 0;
-    justify-content: space-between;
+    padding: 10px;
+    justify-content: center;
 }
 
 .nav-link{
@@ -38,9 +53,13 @@ nav{
 }
 
 .nav-item{
-    padding-left: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     display: flex;
     align-items: center;
+    font-size: 24px;
+    background-color: lime;
+
 }
 
 .nav-item a:hover{
