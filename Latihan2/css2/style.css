@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family: sans-serif;
 }
@@ -14,14 +19,28 @@ li {
 }
 
 .header-logo{
+    text-align: center;
     font-size: 36px;
-    float: left;
     padding: 20px 40px;
 }
 
-.header-list li{
+.navigation{
+    display: flex;;
+    justify-content: center;
+    background-color: aqua;
+    color: #fff;
+}
+
+.nav-list li    {
     float: left;
-    padding: 33px 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 16px;
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: black;
 }
 
 .main{
