@@ -73,8 +73,13 @@ content{
 }
 
 .contents-item{
+    position: relative;
     float: left;
     margin-right: 40px;
+}
+
+.contents-item h1{
+    position: absolute;
 }
 
 .contents-item p{
